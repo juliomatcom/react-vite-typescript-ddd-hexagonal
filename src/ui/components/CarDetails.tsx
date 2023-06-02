@@ -1,4 +1,4 @@
-import { Car } from "../types/Car"
+import { Car } from "../../shared/interfaces/Car"
 
 function CarDetails({ car }: { car: Car }) {
   return (

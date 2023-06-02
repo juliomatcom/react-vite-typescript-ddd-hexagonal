@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { useContext } from "react"
 import carContext from '../contexts/carContext';
-import { Car } from "../types/Car"
+import { Car } from "../../shared/interfaces/Car"
 
 function CarList() {
   const { cars, loading } = useContext(carContext);

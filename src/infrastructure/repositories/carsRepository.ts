@@ -1,4 +1,4 @@
-import { Car } from "../../ui/types/Car"
+import { Car } from "../../shared/interfaces/Car"
 
 const cars = [
   {
